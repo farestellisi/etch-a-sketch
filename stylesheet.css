@@ -1,0 +1,14 @@
+.container {
+    border: 5px solid black;
+    border-radius: 1rem;
+    width: 960px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+};
+
+.square.active {
+    background-color: var(--color-blue);
+}
